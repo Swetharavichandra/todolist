@@ -76,9 +76,6 @@ test('Renders the button component without crashing', () => {
 //  let actvbutton=screen.queryByTestId("active")
 //  expect(actvbutton).toHaveTextContent(/active tasks$/i)
 // })
-// test('Matches snapshot', () => {
-//   const tree = render(<button/>).toJSON();
-//   expect(tree).toMatchSnapshot();
-// })
+
 
 
