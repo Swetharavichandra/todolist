@@ -71,11 +71,11 @@ test('textarea', () => {
 test('Renders the button component without crashing', () => {
   render(<button/>);
 });
-// test('Renders active button correctly', () => {
-//   render(<button/>);
-//  let actvbutton=screen.queryByTestId("active")
-//  expect(actvbutton).toHaveTextContent(/active tasks$/i)
-// })
+test('Renders active button correctly', () => {
+  render(<button/>);
+ let actvbutton=screen.queryByTestId("active")
+ expect(actvbutton).toHaveTextContent(/active tasks$/i)
+})
 
 
 
